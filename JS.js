@@ -17,6 +17,6 @@ function checkPassword(event) {
         }
     } else {
         alert("Password can't be empty");
-        message.textContent = "";
+        message.textContent="";
     }
 }
