@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Verification</title>
+    <link href="CSS.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<section>
+    <div id="home" class="heading-text">
+        <h2 >Password Verification</h2>
+    </div>
+    <form class="form" onsubmit="return checkPassword(event);">
+        <label for="password" class="pass-txt">Password</label>
+        <input id="password" type="password" placeholder="enter pass" required>
+
+        <label for="confirmPassword" class="pass-txt">Confirm Password</label>
+        <input id="confirmPassword" type="password" placeholder="confirm pass" required>
+
+        <p id="message" class="text-msg"></p>
+
+        <input class="btn" type="submit" value="SUBMIT">
+    </form>
+</section>
+
+<footer>
+    <div class="social-icons">
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="#"><i class='bx bxl-github' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+    </div>
+    <ul>
+        <li>FAQ'S</li>
+        <li href="#">home</li>
+        <li>about</li>
+        <li>help</li>
+        <li>contact us </li>
+    </ul>
+
+    <p class="copyryt">&copy; Mani Jhaneswar | All Rights Reserved</p>
+</footer>
+
+<script src="JS.js"></script>
+</body>
+</html>

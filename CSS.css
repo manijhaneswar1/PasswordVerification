@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: white;
+    --main-color: #00ffee;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.sec2{
+    background-color: var(--second-bg-color);
+}
+.se2 form{
+    margin-bottom: 12rem;
+}
+.heading-text {
+    color: var(--main-color);
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 5rem 5rem;
+}
+
+section .form {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    gap: 1.5rem;
+    border: 1px solid var(--main-color);
+    margin-right: 23rem;
+    margin-left: 23rem;
+    border-radius: 10%;
+    margin-bottom: 12rem;
+}
+@media(max-width: 848px){
+    .heading-text {
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+
+    section .form {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding: 2rem;
+        border-radius: 5%;
+    }
+
+    section input {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    section .btn {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .heading-text {
+        font-size: 1.5rem;
+        padding: 3rem;
+    }
+
+    section .form {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding: 2rem;
+        border-radius: 5%;
+    }
+
+    section input {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    section .btn {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading-text {
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+
+    section .form {
+        margin-right: 1rem;
+        margin-left: 1rem;
+        padding: 1.5rem;
+        border-radius: 3%;
+    }
+
+    section input {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    section .btn {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+.pass-txt {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+section input {
+    font-size: 1.5rem;
+    border: 1px solid white;
+    font-weight: 200;
+     padding: 0.8rem;
+     border-radius: 5px;
+}
+
+section .btn {
+    background-color: var(--main-color);
+    border: none;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
+section .btn:hover {
+   transform: scale(1);
+   box-shadow: 0 0 25px 12px var(--main-color);
+}
+footer{
+    background-color: var(--second-bg-color);
+    height: auto;
+}
+footer .social-icons{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 1rem;
+    gap: 3rem;
+}
+footer .social-icons a{
+    color:var(--main-color);
+    background-color: black;
+    font-size: 1.6rem;
+    box-shadow: 0 0 25px  var(--main-color);
+    transition: 0.3s ease-in-out;
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+}
+footer .social-icons a:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px var(--main-color);
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 1rem;
+    gap: 3rem;
+}
+footer ul li{
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+footer .copyryt{
+    text-align: center;
+    word-spacing: 0.3rem;
+    bottom: 2rem;
+}
