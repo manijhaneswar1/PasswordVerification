@@ -177,6 +177,7 @@ footer ul{
     padding: 3rem;
     margin: 0 1rem;
     gap: 3rem;
+    text-decoration: none;
 }
 footer ul li{
     text-align: center;
