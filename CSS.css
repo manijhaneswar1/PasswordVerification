@@ -191,3 +191,12 @@ footer .copyryt{
     word-spacing: 0.3rem;
     bottom:2rem;
 }
+.end{
+    background-color: var(--second-bg-color);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 0.6rem;
+    top:2rem;
+}
